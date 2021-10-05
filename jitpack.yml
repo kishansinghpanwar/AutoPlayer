@@ -1,4 +1,0 @@
-jdk:
-  - openjdk9
-install:
-  - ./gradlew :AutoPlayer:publishToMavenLocal
