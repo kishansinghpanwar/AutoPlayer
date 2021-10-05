@@ -2,3 +2,8 @@ jdk:
   - openjdk9
 install:
   - ./gradlew :AutoPlayer:publishToMavenLocal
+jobs:
+  build:
+    steps:
+     - name: Make gradlew executable
+        run: chmod +x ./gradlew
