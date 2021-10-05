@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.autoplayer.adapter.FeedAdapter;
+import com.example.autoplayer.databinding.ActivityMainBinding;
 import com.example.autoplayer.enums.FeedPostType;
 import com.example.autoplayer.model.FeedBean;
 import com.example.autoplayer.utils.Utils;
@@ -20,16 +21,18 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView rvFeeds;
     private FeedAdapter feedAdapter;
     private boolean isMute = false;
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
         init();
     }
 
     private void init() {
-        rvFeeds = findViewById(R.id.rvFeeds);
+        rvFeeds = binding.rvFeeds;
         AutoPlayerManager autoPlayerManager = new AutoPlayerManager(this);
         autoPlayerManager.setAutoPlayerId(R.id.autoPlayer);
         autoPlayerManager.setUseController(true);
