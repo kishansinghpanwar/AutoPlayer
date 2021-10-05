@@ -53,13 +53,13 @@ project.afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                // The following applies a component to this publication
-                from components.release
-                artifact androidSourcesJar
+                 // The following applies a component to this publication
+                 from components.release
+                 artifact androidSourcesJar
 
-                groupId = 'com.player.autoplayer'
-                artifactId = 'autoplayer'
-                version = '1.0'
+                 groupId = 'com.player.autoplayer'
+                 artifactId = 'AutoPlayer'
+                 version = '1.0'
             }
         }
     }
