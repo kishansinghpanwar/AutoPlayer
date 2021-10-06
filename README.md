@@ -1,8 +1,18 @@
 
+
 # AutoPlayer [![](https://jitpack.io/v/kishansinghpanwar/AutoPlayer.svg)](https://jitpack.io/#kishansinghpanwar/AutoPlayer)
 A player based on ExoPlayer for play video automatically in RecyclerView, when an item is visible.
 
 <img src="https://github.com/kishansinghpanwar/AutoPlayer/blob/master/Screenshots/screenshot-1.png" width="180" >    <img src="https://github.com/kishansinghpanwar/AutoPlayer/blob/master/Screenshots/screenshot-2.png" width="180">
+
+ **Features:**
+ - This library supports the Auto-play video even though there are multiple View-Types and View-Holders in RecyclerView.
+ -  Automatically detect the visible video and play it while pause the other videos.
+- Fully customizable settings (Auto Play, Default Mute, Use Controller, Enable Caching etc.).
+- Support Mute/Unmute.
+- Support Attractive controller for video.
+- Automatically detect the highest visible video if there are more than 1 player visible same time on the screen.
+
 
  **To add this Library in your project :**
  - Step 1. Add the JitPack repository to your build file
