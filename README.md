@@ -1,7 +1,7 @@
 
 
 # AutoPlayer [![](https://jitpack.io/v/kishansinghpanwar/AutoPlayer.svg)](https://jitpack.io/#kishansinghpanwar/AutoPlayer)
-A player based on ExoPlayer for play video automatically in RecyclerView, when an item is visible.
+A player based on ExoPlayer for play video automatically in RecyclerView (Vertical scroll), when an item is visible.
 
 <img src="https://github.com/kishansinghpanwar/AutoPlayer/blob/master/Screenshots/screenshot-1.png" width="180" >    <img src="https://github.com/kishansinghpanwar/AutoPlayer/blob/master/Screenshots/screenshot-2.png" width="180">
 
