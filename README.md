@@ -66,6 +66,7 @@ A player based on ExoPlayer for play video automatically in RecyclerView (Vertic
 	  ```
 	  *See usage:* [FeedAdapter.java](https://github.com/kishansinghpanwar/AutoPlayer/blob/master/app/src/main/java/com/example/autoplayer/adapter/FeedAdapter.java)
 	  
-
-
+  ------
+  
+🌟 **Thank you for using this library and If this is useful for you, then please Star 🌟 this.**
 
